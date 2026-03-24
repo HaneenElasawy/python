@@ -1,4 +1,5 @@
 
+from person import Person
 class Employee(Person):
     def _init_(self, name, money, mood, healthRate, id, car, email, salary, distanceToWork):
         super()._init_(name, money, mood, healthRate)
